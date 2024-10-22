@@ -53,6 +53,16 @@
 </dependency>
 
   </dependencies>
+  <repositories>
+    <!-- Add the necessary repository for your SNAPSHOT version, if applicable -->
+    <repository>
+      <id>my-snapshots</id>
+      <url>http://http://54.165.227.135:8080/repository6/maven-snapshots/</url>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
 	<build>
 		<plugins>
 			<plugin>
