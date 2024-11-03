@@ -24,7 +24,9 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import PageObjects.ForgotPasswordPageObjects;
 import PageObjects.LoginPageObjects;
+import PageObjects.LogoutPageObjects;
 
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -41,7 +43,8 @@ public class base {
 public static WebDriver driver;
 	
 public LoginPageObjects lpob;
-//public Logoutpageobjects lopo;
+public LogoutPageObjects lopo;
+public ForgotPasswordPageObjects fppo;
 
 LoginReadConfig config = new LoginReadConfig();
 
