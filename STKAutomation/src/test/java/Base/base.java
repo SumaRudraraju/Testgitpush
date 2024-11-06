@@ -100,7 +100,7 @@ public void instatiateDrivers() throws InterruptedException {
 @AfterTest
 public static  void closeDriver() throws InterruptedException {
     
-	Thread.sleep(60000);
+	Thread.sleep(30000);
 	//driver.close();
     }
 
